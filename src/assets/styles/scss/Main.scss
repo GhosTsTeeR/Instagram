@@ -1,0 +1,115 @@
+@import './variables.scss';
+.main {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: rgb(245, 246, 252);
+    &__signup {
+        background: rgb(255, 255, 255);
+        display: flex;;
+        justify-content: center;
+        &-container {
+            border-radius: 4px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            margin-top: 30px;
+            border: rgba(0, 0, 0, 0.218) 2px solid;
+            width: 380px;
+            height: 593px;
+            &-logo {
+                & img {
+                    padding-top: 8px;
+                    width: 220px;
+                    height: 110px;
+                }
+            }
+            &-header {
+                padding-top: -3rem;
+                & h1 {
+                    color: rgba(0, 0, 0, 0.416);
+                    font-family: "arial";
+                    font-size: 17px;
+                }
+                & button {
+                    margin-top: 20px;
+                    background: rgba(56,151,240,255);
+                    border-radius: 6px;
+                    width: 79%;
+                    height: 36px;
+                    border: none;
+                }
+                &-icon {
+                    font-size: 25px;
+                    background: transparent;
+                }
+                & h6 {
+                    font-family: "arial";
+                    font-size: 15px;
+                }
+                
+            }
+            &-separacion {
+                margin-top: 20px;
+                &-raya {
+                    width: 100%;
+                    border-bottom: 1px solid #195eff;
+                }
+            }
+            
+            &-content {
+                margin-top: 20px;
+                &-inputs {
+                    & Input {
+                        margin-bottom: 20px;
+                    }
+                    & Input[type="text"],
+                    & Input[type="password"] {
+                        border: none;
+                        width: 79%;
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.354);
+                        background: transparent;
+                        outline: none;
+                        height: 40px;
+                        color: black;
+                        font-size: 16px ;
+                        border-radius: 4px;
+        
+                        
+                    }
+                    & Input[type="submit"] {
+                        white-space: normal;
+                        word-wrap: break-word;
+                        border: none;
+                        width: 79%;
+                        border-bottom: 1px solid #fff;
+                        background: rgba(56,151,240,255);
+                        outline: none;
+                        height: 30px;
+                        color: #fff;
+                        font-size: 17px ;
+                        border-radius: 4px;
+                        
+                    }
+
+                }
+            }
+            & p {
+                font-size: 11px ;
+            }
+            & a {
+                font-size: 11px ;
+            }
+
+        }
+        &-footer {
+            justify-content: center;
+            margin-top: 10px;
+            width: 380px;
+            height: 73px;
+            border: rgba(0, 0, 0, 0.218) 2px solid;
+            border-radius: 4px;
+        }
+        
+    }
+}
